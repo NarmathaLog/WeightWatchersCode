@@ -41,8 +41,8 @@ public class PrintFoodName {
 			           thirdItem = foodName.get(2).getText();
 				       fifthItem = foodName.get(5).getText();
 				}
-			System.out.println("Third Item Name is: +thirdItem");
-			System.out.println("Fifth Item Name is: +fifthItem");
+			System.out.println("Third Item Name is:" +thirdItem);
+			System.out.println("Fifth Item Name is:" +fifthItem);
 		} catch (Exception e) {
 			// we can print the customized error messages, if required.
 			e.printStackTrace();
